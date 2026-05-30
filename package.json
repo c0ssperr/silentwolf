@@ -1,6 +1,6 @@
 {
-  "name": "silent-wolf-bot",
-  "version": "2.1.0",
+  "name": "WOLFBOT",
+  "version": "1.1.5",
   "description": "A WhatsApp bot using Baileys with auto-restart prefix system and heartbeat monitor",
   "keywords": [
     "whatsapp",
@@ -90,7 +90,8 @@
     "ruhend-scraper": "^9.0.8",
     "sql.js": "^1.14.1",
     "systeminformation": "^5.31.4",
-    "ws": "^8.19.0"
+    "ws": "^8.19.0",
+     "pg": "^8.20.0"
   },
   "optionalDependencies": {
     "canvas": "^3.2.1",
@@ -104,6 +105,6 @@
     "pm2": "^5.4.3"
   },
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   }
 }
